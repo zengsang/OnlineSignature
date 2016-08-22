@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/toolbarstyle"
+        android:id="@+id/toolbar"
+        >
+        <ImageButton
+            android:id="@+id/toobarback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/toolbarbackicon"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="right">
+            <TextView
+                style="@style/toolbartextviewstyle"
+                android:text="@string/newprotocelmould"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical">
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:textSize="16dp"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/uploadprotocelmoudel"
+                    android:background="@drawable/refactormsgbtnshape"
+                    android:id="@+id/addprotocelmouldsurebutton"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_marginTop="?attr/actionBarSize"
+        android:id="@+id/l_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/userprotoceltitle"
+            android:background="@color/colorbackground"
+            android:gravity="center_horizontal"
+            android:hint="@string/newprotoceltitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/l_title">
+        <EditText
+            android:id="@+id/newprotocelcontent"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:hint="@string/newprotocelcontent"
+            android:singleLine="false"
+            android:textSize="13dp"
+            android:gravity="top" />
+    </LinearLayout>
+
+</RelativeLayout>

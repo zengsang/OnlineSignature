@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/toolbarstyle"
+        android:id="@+id/toolbar"
+        app:popupTheme="@style/ToolbarPopupTheme"
+        app:theme="@style/ToolbarTheme"
+        >
+        <ImageButton
+            android:id="@+id/toobarback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/toolbarbackicon"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|left">
+            <TextView
+                style="@style/toolbartextviewstyle"
+                android:text="@string/newprotocel"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.example.sign_online.Mywidget.MyScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:fillViewport="true"
+            android:scrollbars="none"
+            android:focusable="false"
+            >
+            <com.example.sign_online.Mywidget.MyEdittext
+                android:id="@+id/protocel"
+                android:background="@color/white"
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.example.sign_online.Mywidget.MyScrollView>
+    </LinearLayout>
+</LinearLayout>

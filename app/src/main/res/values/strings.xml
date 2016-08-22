@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Sign_online</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="login">登录</string>
+    <string name="ok">确认</string>
+    <string name="cancle">返回</string>
+    <string name="addprotocel">添加协议</string>
+    <string name="action_settings">Settings</string>
+    <string name="regist">注册</string>
+    <string name="userpicture">头像</string>
+    <string name="username">用户名</string>
+    <string name="completemsg">完善信息</string>
+    <string name="usernameandemail">用户名/邮箱</string>
+    <string name="userreallyname">真实姓名</string>
+    <string name="useremail">邮箱</string>
+    <string name="userpassword">密码</string>
+    <string name="usrepassword_again">再次输入密码</string>
+    <string name="useridnumber">身份证号</string>
+    <string name="usersex">性别</string>
+    <string name="useryearold">年龄</string>
+    <string name="phonenumber">电话号码</string>
+    <string name="registnow">立即注册</string>
+    <string name="forgetpassword">忘记密码</string>
+    <string name="addprocetol">添加协议</string>
+    <string name="setting">设置</string>
+    <string name="newprotoceltitle">协议标题</string>
+    <string name="newprotocelcontent">协议内容</string>
+    <string name="refactor">改</string>
+    <string name="usersuggestion">请写入您宝贵的意见</string>
+    <string name="usersuggestiontitle">用户反馈</string>
+    <string name="newprotocel">新建协议</string>
+    <string name="edit">编辑</string>
+    <string name="newprotocelmould">新建模板</string>
+    <string name="aboutdeveloper">关于我们</string>
+    <string name="getmsgnow">接收</string>
+    <string name="openmsgnow">打开消息</string>
+    <string name="preview">预览</string>
+    <string name="sure">提交</string>
+    <string name="yes">确定</string>
+    <string name="partb">乙方</string>
+    <string name="parta">甲方</string>
+    <string name="sign_name">签名</string>
+    <string name="signfacetoface">双方签字</string>
+    <string name="signlongdistance">单方签字</string>
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="user_name">用户名</string>
+    <string name="user_real_name">真实姓名</string>
+    <string name="user_sex">用户性别</string>
+    <string name="user_year_old">年龄</string>
+    <string name="refactormsg">编辑</string>
+    <string name="uploadprotocelmoudel">提交</string>
+    <string name="load_fail">加载失败</string>
+    <string name="myprotocel">我的协议</string>
+    <string name="mymesg">我的消息</string>
+    <string name="mymessage">我的消息</string>
+    <string name="registing">正在注册</string>
+    <string name="ourname">成成工作室</string>
+    <string name="refactorusericon">改头像</string>
+    <string name="suretodelete">确认删除？</string>
+    <string name="refactorusermsg">修改信息</string>
+    <string name="ourpurpose">  &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;成成工作室是一个以软件开发为主要的外包性质的公司，主要接管各类软件的外包，app，网页等等，我们力求做出让客户满意，让客户放心的软件
+    以客户为上帝，满足客户需求，我们有强大的开发团队，测试团队，设计团队等等。我们的口号是：展望未来，科创明天！
+    </string>
+    <string name="ouraddress">地址：重庆市北碚区西南大学</string>
+    <string name="ourphonenumber">联系电话：18883325536</string>
+    <string name="ouremail">邮箱：2941929175@qq.com</string>
+    <string-array name="spinneritem">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+</resources>

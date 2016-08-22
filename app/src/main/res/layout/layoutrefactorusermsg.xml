@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/toolbarstyle"
+        android:id="@+id/toolbar"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/toobarback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/toolbarbackicon"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                >
+                <TextView
+                    style="@style/toolbartextviewstyle"
+                    android:text="@string/refactorusermsg"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:gravity="right|center_vertical"
+                >
+                <Button
+                    android:id="@+id/editbutton"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:textSize="16dp"
+                    android:layout_marginRight="3dp"
+                    android:text="@string/refactormsg"
+                    android:background="@drawable/refactormsgbtnshape"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:id="@+id/l_usericon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left">
+
+        <com.example.sign_online.Mywidget.MyCircleImageView
+            android:id="@+id/usericon"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginLeft="8dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/l_username"
+            android:layout_below="@+id/l_useremail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:text="@string/username"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/usernameedittext"
+                    style="@style/refactoredittexttyle"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+
+            android:id="@+id/l_userrealname"
+            android:layout_below="@+id/l_username"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="40dp"
+            >
+            <TextView
+                android:text="@string/user_real_name"
+                android:gravity="center_vertical"
+                android:height="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/userrealnameedittext"
+                    style="@style/refactoredittexttyle"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+
+            android:id="@+id/l_userphonenumber"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/l_userrealname"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:text="@string/phonenumber"
+                android:gravity="center_vertical"
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/userphonenumberedittext"
+                    style="@style/refactoredittexttyle"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+
+            android:id="@+id/l_usersex"
+            android:layout_below="@+id/l_userphonenumber"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:text="@string/usersex"
+                android:gravity="center_vertical"
+                android:height="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/usersexedittext"
+                    style="@style/refactoredittexttyle"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+
+            android:id="@+id/l_useryearold"
+            android:layout_below="@+id/l_usersex"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:text="@string/user_year_old"
+                android:layout_width="wrap_content"
+                android:gravity="center_vertical"
+                android:height="40dp"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/useryearoldedittext"
+                    style="@style/refactoredittexttyle"
+                    />
+            </LinearLayout>
+
+
+            <!--   <LinearLayout
+                   android:id="@+id/l_completemsg"
+                   android:layout_below="@+id/l_useryearold"
+                   android:layout_marginTop="25dp"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="center"
+                   android:orientation="horizontal">
+                   <Button
+                       android:id="@+id/l_completemsgbuttong"
+                       android:text="@string/user_year_old"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+                   </LinearLayout>
+           -->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

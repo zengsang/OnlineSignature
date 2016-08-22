@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myprotoceldetilcolorback"
+    >
+<!--<android.support.v7.widget.RecyclerView
+    android:id="@+id/listmyprotocelimagerecycle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/recyclebackground"
+    ></android.support.v7.widget.RecyclerView>-->
+    <com.example.sign_online.Mywidget.CustomGallery
+        android:id="@+id/customgallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.example.sign_online.Mywidget.CustomGallery>
+
+</RelativeLayout>

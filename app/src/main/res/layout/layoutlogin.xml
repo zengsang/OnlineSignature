@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorbackground"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/l_usericon"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal|center_vertical">
+            <com.example.sign_online.Mywidget.MyCircleImageView
+                android:id="@+id/usericon"
+                android:src="@mipmap/defaultusericon"
+                android:layout_width="90dp"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_username"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/l_usericon"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/e_username"
+                style="@style/loginregistedittextstyle"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                android:text="2941929175@qq.com"
+                android:hint="@string/usernameandemail"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/l_userpassword"
+            android:layout_below="@+id/l_username"
+            android:layout_marginTop="5dp">
+            <EditText
+                android:id="@+id/e_userpassword"
+                style="@style/loginregistedittextstyle"
+                android:hint="@string/userpassword"
+                android:singleLine="true"
+                android:text="zzq132418"
+                android:inputType="textPassword"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/l_login"
+            android:layout_below="@+id/l_userpassword">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/loginbutton"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/login"
+                android:background="@drawable/btnshape"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/l_login"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+            <Button
+                android:text="@string/registnow"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:textColor="@color/colorPrimary"
+                android:alpha="100"
+                android:layout_height="wrap_content"
+                android:id="@+id/registnowbuttong" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:layout_height="40dp">
+                <Button
+                    android:id="@+id/forgetpasswordbuttong"
+                    android:text="@string/forgetpassword"
+                    android:layout_width="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:alpha="100"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

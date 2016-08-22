@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_addprocel"
+            android:icon="@mipmap/add_protocel"
+            android:title="@string/addprocetol" />
+        <item
+            android:id="@+id/nav_myprocetol"
+            android:icon="@mipmap/my_protocel"
+            android:title="@string/myprotocel"
+
+            />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/settings"
+            android:title="@string/setting" />
+    </group>
+
+
+</menu>

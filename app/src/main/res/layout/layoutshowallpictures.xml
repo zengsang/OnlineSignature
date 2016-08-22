@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<GridView
+    android:id="@+id/userpicturegridview"
+    android:layout_width="fill_parent"
+    android:numColumns="3"
+    android:stretchMode="columnWidth"
+    android:background="@color/colorback"
+    android:verticalSpacing="2dp"
+    android:horizontalSpacing="2dp"
+    android:layout_height="fill_parent"></GridView>
+    <TextView
+        android:id="@+id/showprogresstextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        />
+    </FrameLayout>
+</LinearLayout>

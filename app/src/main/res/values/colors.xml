@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorSignbtn">#37b797</color>
+    <color name="gridviewitemselector">#ead3d3</color>
+    <color name="colorprogressback">#615757</color>
+    <color name="colorback">#000000</color>
+    <color name="myprotoceldetilcolorback">#f4edad</color>
+    <color name="colorwritebtn">#a6c9b7b7</color>
+    <color name="coloricon">#FF9800</color>lor>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_list_selected">#24000000</color>
+    <color name="color_list_select">#aaa97878</color>
+    <color name="colorsomeback">#ffffff</color>
+    <color name="colorbackground">#a6ecdede</color>
+    <color name="texthinitcolor">#a6d7b9b9</color>
+    <color name="line">#d2ccc6</color>
+    <color name="colorwriteplaceelse">#a6f2eeee</color>
+    <color name="recyclebackground">#ded4c7</color>
+    <color name="newprotocelmouldline">#ded4c7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="settingitemclick">#dcb3b3</color>
+    <color name="black">#000000</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="refresh_header_color">#e6ecf2</color>
+    <color name="colorsuggestionbox">#94e1e4</color>
+    <color name="colormyprotocelcardview">#9ed2ed</color>
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorbackground"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <com.example.sign_online.Tools.ViewTools.MyCanvasforParta
+            android:id="@+id/mycanvasforparta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/parta"
+                android:textSize="60dp"
+                android:textColor="@color/colorwriteplaceelse"
+                />
+            <LinearLayout
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/rewrite"
+                android:src="@mipmap/rewrite"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true" />
+        </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1">
+
+        <com.example.sign_online.Tools.ViewTools.MyCanvasforPartb
+            android:id="@+id/mycanvasforpartb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/partb"
+                android:textSize="60dp"
+                android:textColor="@color/colorwriteplaceelse"
+                />
+            <LinearLayout
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/rewriteb"
+                    android:src="@mipmap/rewrite"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="14dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/surebutton"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="3dp"
+            android:text="@string/yes"
+            android:textColor="@color/colorwritebtn"
+            android:background="@drawable/signnamebuttonshape"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/canclebutton"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="@string/cancle"
+            android:textColor="@color/colorwritebtn"
+            android:background="@drawable/signnamebuttonshape"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
