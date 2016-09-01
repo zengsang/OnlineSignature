@@ -1,6 +1,6 @@
 # OnlineSignature
 A comprehensive service platform to provide electronic signature\<br>
-一个提供在线电子签字的工具，可以通过在手机平板上实现单方以及双方的签字。\<br>
+一个提供在线电子签字的工具，可以通过在手机平板上实现单方以及双方的签字。   \ <br />
 其他功能：包括协议的管理，个人信息管理。\<br>
 优点：签字方便，快捷。\<br>
 不足：不能远程签字。\<br>
